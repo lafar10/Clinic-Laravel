@@ -1,0 +1,15 @@
+#flx{
+     text-decoration: none;
+     color: grey;
+     font-family:'Courier New', Courier, monospace;
+}
+
+#flx:hover{
+    font-style:italic;
+    color:rgb(218, 76, 104);
+}
+
+#fl{
+    margin-left: 50px;
+    margin-top: 100px;
+}
