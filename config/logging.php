@@ -56,8 +56,8 @@ return [
 
         'single' => [
             'driver' => 'errorlog',
-            
-            'level' => env('LOG_LEVEL', 'debug'),
+
+            'level' => 'debug',
         ],
 
         'daily' => [
