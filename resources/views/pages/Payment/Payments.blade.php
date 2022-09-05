@@ -34,6 +34,9 @@
                                     Prenom
                                 </th>
                                 <th>
+                                    telephone
+                                </th>
+                                <th>
                                     Type_Malade
                                 </th>
                                 <th>
@@ -64,6 +67,9 @@
                                     </td>
                                     <td>
                                         {{$payment->prenom}}
+                                    </td>
+                                    <td>
+                                        {{$payment->tele}}
                                     </td>
                                     <td>
                                         {{$payment->maladie_type}}
