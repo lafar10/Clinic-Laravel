@@ -28,7 +28,7 @@ class AppointmentController extends Controller
 
     public function create()
     {
-        $appointments = Appointment::where('date_appointment', Carbon::now()->format('y-m-d'))->get();
+        $appointments = Appointment::where('date_appointment', Carbon::now()->format('d-m-y'))->get();
         return view('pages.Appointment.AddAppointment', compact('appointments'));
     }
 
