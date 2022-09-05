@@ -20,7 +20,7 @@ class AppointmentController extends Controller
     public function index_status()
     {
         $appointments = Appointment::where('status', 'En Attente')
-            ->where('date_appointment', Carbon::now()->format('y-m-d'))
+            ->where('date_appointment', Carbon::now()->format('d-m-y'))
             ->orderBy('heure_appointment', 'asc')->paginate(10);
 
         return view('pages.Appointment.AppointmentStatus', compact('appointments'));
