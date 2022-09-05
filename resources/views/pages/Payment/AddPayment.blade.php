@@ -32,6 +32,16 @@
             </div>
             <div class="col-md-6">
                 <br>
+                <label for="">Téléphone :</label>
+                <input type="text" name="tele" class="form-control"  value="{{old('tele')}}" >
+                @error('tele')
+                    <small class="form-text text-danger">
+                        {{$message}}
+                    </small>
+                @enderror
+            </div>
+            <div class="col-md-6">
+                <br>
                 <label for="">Montant :</label>
                 <input type="text" name="montant" class="form-control"  value="{{old('montant')}}" >
                 @error('montant')
@@ -65,7 +75,7 @@
                     </small>
                 @enderror
             </div>
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <br>
                 <label for="">Status :</label>
                 <select name="status" class="form-control" id="">
