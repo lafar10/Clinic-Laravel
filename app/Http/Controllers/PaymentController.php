@@ -37,6 +37,7 @@ class PaymentController extends Controller
         $validator = Validator::make($request->all(), [
             'nom' => 'required',
             'prenom' => 'required',
+            'tele' => 'required',
             'maladie_type' => 'required',
             'montant' => 'required',
             'payment_method' => 'required',
