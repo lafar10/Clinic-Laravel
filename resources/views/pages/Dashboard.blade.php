@@ -23,7 +23,7 @@
                 <div class="col-lg-4 bg-white" >
                     <a href="{{route('payment.status')}}"id="flx">
                         <h4 class="display-5"><i style="color:rgb(240, 98, 98);" class="now-ui-icons business_money-coins"></i>&nbsp; Today Total</h4>
-                        <h2 class="display-5">{{\App\Models\Payment::where('status','Payed')->where('created_at',\Carbon\Carbon::now())->sum('montant')}} <strong>DH's</strong></h2>
+                        <h2 class="display-5">{{\App\Models\Payment::where('status','Payed')->where('created_at',\Carbon\Carbon::today())->sum('montant')}} <strong>DH's</strong></h2>
                     </a>
                 </div>
             </div>
