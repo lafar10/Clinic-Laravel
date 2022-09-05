@@ -101,90 +101,90 @@
 
                         <div class="col-md-1">
                             08:00
-                            <input type="checkbox" name="heure_appointment" class="form-control"" value="08:00" {{ \App\Models\Appointment::whereDate('date_appointment',\Carbon\Carbon::now()->format('y-m-d'))->where('heure_appointment','08:00')->where('status','En Attente')->exists() ? 'hidden':''}}>
+                            <input type="checkbox" name="heure_appointment" class="form-control"" value="08:00" {{ \App\Models\Appointment::whereDate('date_appointment',\Carbon\Carbon::now()->format('d-m-y'))->where('heure_appointment','08:00')->where('status','En Attente')->exists() ? 'hidden':''}}>
                         </div>
                         <div class="col-md-1">
                             08:30
-                            <input type="checkbox" name="heure_appointment" class="form-control"" value="08:30" {{ \App\Models\Appointment::whereDate('date_appointment',\Carbon\Carbon::now()->format('y-m-d'))->where('heure_appointment','08:30')->where('status','En Attente')->exists() ? 'hidden':''}}>
+                            <input type="checkbox" name="heure_appointment" class="form-control"" value="08:30" {{ \App\Models\Appointment::whereDate('date_appointment',\Carbon\Carbon::now()->format('d-m-y'))->where('heure_appointment','08:30')->where('status','En Attente')->exists() ? 'hidden':''}}>
                         </div>
                         <div class="col-md-1">
                             09:00
-                            <input type="checkbox" name="heure_appointment" class="form-control" value="09:00"  {{ \App\Models\Appointment::whereDate('date_appointment',\Carbon\Carbon::now()->format('y-m-d'))->where('heure_appointment','09:00')->where('status','En Attente')->exists() ? 'hidden':''}}>
+                            <input type="checkbox" name="heure_appointment" class="form-control" value="09:00"  {{ \App\Models\Appointment::whereDate('date_appointment',\Carbon\Carbon::now()->format('d-m-y'))->where('heure_appointment','09:00')->where('status','En Attente')->exists() ? 'hidden':''}}>
                         </div>
                         <div class="col-md-1">
                             09:30
-                            <input type="checkbox" name="heure_appointment" class="form-control"" value="09:30" {{ \App\Models\Appointment::whereDate('date_appointment',\Carbon\Carbon::now()->format('y-m-d'))->where('heure_appointment','09:30')->where('status','En Attente')->exists() ? 'hidden':''}}>
+                            <input type="checkbox" name="heure_appointment" class="form-control"" value="09:30" {{ \App\Models\Appointment::whereDate('date_appointment',\Carbon\Carbon::now()->format('d-m-y'))->where('heure_appointment','09:30')->where('status','En Attente')->exists() ? 'hidden':''}}>
                         </div>
                         <div class="col-md-1">
                             10:00
-                            <input type="checkbox" name="heure_appointment" class="form-control"" value="10:00" {{ \App\Models\Appointment::whereDate('date_appointment',\Carbon\Carbon::now()->format('y-m-d'))->where('heure_appointment','10:00')->where('status','En Attente')->exists() ? 'hidden':''}}>
+                            <input type="checkbox" name="heure_appointment" class="form-control"" value="10:00" {{ \App\Models\Appointment::whereDate('date_appointment',\Carbon\Carbon::now()->format('d-m-y'))->where('heure_appointment','10:00')->where('status','En Attente')->exists() ? 'hidden':''}}>
                         </div>
                         <div class="col-md-1">
                             10:30
-                            <input type="checkbox" name="heure_appointment" class="form-control"" value="10:30" {{ \App\Models\Appointment::whereDate('date_appointment',\Carbon\Carbon::now()->format('y-m-d'))->where('heure_appointment','10:30')->where('status','En Attente')->exists() ? 'hidden':''}}>
+                            <input type="checkbox" name="heure_appointment" class="form-control"" value="10:30" {{ \App\Models\Appointment::whereDate('date_appointment',\Carbon\Carbon::now()->format('d-m-y'))->where('heure_appointment','10:30')->where('status','En Attente')->exists() ? 'hidden':''}}>
                         </div>
                         <div class="col-md-1">
                             11:00
-                            <input type="checkbox" name="heure_appointment" class="form-control"" value="11:00" {{ \App\Models\Appointment::whereDate('date_appointment',\Carbon\Carbon::now()->format('y-m-d'))->where('heure_appointment','11:00')->where('status','En Attente')->exists() ? 'hidden':''}}>
+                            <input type="checkbox" name="heure_appointment" class="form-control"" value="11:00" {{ \App\Models\Appointment::whereDate('date_appointment',\Carbon\Carbon::now()->format('d-m-y'))->where('heure_appointment','11:00')->where('status','En Attente')->exists() ? 'hidden':''}}>
                         </div>
                         <div class="col-md-1">
                             11:30
-                            <input type="checkbox" name="heure_appointment" class="form-control"" value="11:30" {{ \App\Models\Appointment::whereDate('date_appointment',\Carbon\Carbon::now()->format('y-m-d'))->where('heure_appointment','11:30')->where('status','En Attente')->exists() ? 'hidden':''}}>
+                            <input type="checkbox" name="heure_appointment" class="form-control"" value="11:30" {{ \App\Models\Appointment::whereDate('date_appointment',\Carbon\Carbon::now()->format('d-m-y'))->where('heure_appointment','11:30')->where('status','En Attente')->exists() ? 'hidden':''}}>
                         </div>
                         <div class="col-md-1">
                             12:00
-                            <input type="checkbox" name="heure_appointment" class="form-control"" value="12:00" {{ \App\Models\Appointment::whereDate('date_appointment',\Carbon\Carbon::now()->format('y-m-d'))->where('heure_appointment','12:00')->where('status','En Attente')->exists() ? 'hidden':''}}>
+                            <input type="checkbox" name="heure_appointment" class="form-control"" value="12:00" {{ \App\Models\Appointment::whereDate('date_appointment',\Carbon\Carbon::now()->format('d-m-y'))->where('heure_appointment','12:00')->where('status','En Attente')->exists() ? 'hidden':''}}>
                         </div>
                         <div class="col-md-1">
                             12:30
-                            <input type="checkbox" name="heure_appointment" class="form-control"" value="12:30" {{ \App\Models\Appointment::whereDate('date_appointment',\Carbon\Carbon::now()->format('y-m-d'))->where('heure_appointment','12:30')->where('status','En Attente')->exists() ? 'hidden':''}}>
+                            <input type="checkbox" name="heure_appointment" class="form-control"" value="12:30" {{ \App\Models\Appointment::whereDate('date_appointment',\Carbon\Carbon::now()->format('d-m-y'))->where('heure_appointment','12:30')->where('status','En Attente')->exists() ? 'hidden':''}}>
                         </div>
                         <div class="col-md-1">
                             13:00
-                            <input type="checkbox" name="heure_appointment" class="form-control"" value="13:00" {{ \App\Models\Appointment::whereDate('date_appointment',\Carbon\Carbon::now()->format('y-m-d'))->where('heure_appointment','13:00')->where('status','En Attente')->exists() ? 'hidden':''}}>
+                            <input type="checkbox" name="heure_appointment" class="form-control"" value="13:00" {{ \App\Models\Appointment::whereDate('date_appointment',\Carbon\Carbon::now()->format('d-m-y'))->where('heure_appointment','13:00')->where('status','En Attente')->exists() ? 'hidden':''}}>
                         </div>
                         <div class="col-md-1">
                             13:30
-                            <input type="checkbox" name="heure_appointment" class="form-control"" value="13:30" {{ \App\Models\Appointment::whereDate('date_appointment',\Carbon\Carbon::now()->format('y-m-d'))->where('heure_appointment','13:30')->where('status','En Attente')->exists() ? 'hidden':''}}>
+                            <input type="checkbox" name="heure_appointment" class="form-control"" value="13:30" {{ \App\Models\Appointment::whereDate('date_appointment',\Carbon\Carbon::now()->format('d-m-y'))->where('heure_appointment','13:30')->where('status','En Attente')->exists() ? 'hidden':''}}>
                         </div>
                     </div>
                     <br>
                     <div class="row">
                         <div class="col-md-1">
                             14:00
-                            <input type="checkbox" name="heure_appointment" class="form-control"" value="14:00" {{ \App\Models\Appointment::whereDate('date_appointment',\Carbon\Carbon::now()->format('y-m-d'))->where('heure_appointment','14:00')->where('status','En Attente')->exists() ? 'hidden':''}}>
+                            <input type="checkbox" name="heure_appointment" class="form-control"" value="14:00" {{ \App\Models\Appointment::whereDate('date_appointment',\Carbon\Carbon::now()->format('d-m-y'))->where('heure_appointment','14:00')->where('status','En Attente')->exists() ? 'hidden':''}}>
                         </div>
                         <div class="col-md-1">
                             14:30
-                            <input type="checkbox" name="heure_appointment" class="form-control"" value="14:30" {{ \App\Models\Appointment::whereDate('date_appointment',\Carbon\Carbon::now()->format('y-m-d'))->where('heure_appointment','14:30')->where('status','En Attente')->exists() ? 'hidden':''}}>
+                            <input type="checkbox" name="heure_appointment" class="form-control"" value="14:30" {{ \App\Models\Appointment::whereDate('date_appointment',\Carbon\Carbon::now()->format('d-m-y'))->where('heure_appointment','14:30')->where('status','En Attente')->exists() ? 'hidden':''}}>
                         </div>
                         <div class="col-md-1">
                             15:00
-                            <input type="checkbox" name="heure_appointment" class="form-control"" value="15:00" {{ \App\Models\Appointment::whereDate('date_appointment',\Carbon\Carbon::now()->format('y-m-d'))->where('heure_appointment','15:00')->where('status','En Attente')->exists() ? 'hidden':''}}>
+                            <input type="checkbox" name="heure_appointment" class="form-control"" value="15:00" {{ \App\Models\Appointment::whereDate('date_appointment',\Carbon\Carbon::now()->format('d-m-y'))->where('heure_appointment','15:00')->where('status','En Attente')->exists() ? 'hidden':''}}>
                         </div>
                         <div class="col-md-1">
                             15:30
-                            <input type="checkbox" name="heure_appointment" class="form-control"" value="15:30" {{ \App\Models\Appointment::whereDate('date_appointment',\Carbon\Carbon::now()->format('y-m-d'))->where('heure_appointment','15:30')->where('status','En Attente')->exists() ? 'hidden':''}}>
+                            <input type="checkbox" name="heure_appointment" class="form-control"" value="15:30" {{ \App\Models\Appointment::whereDate('date_appointment',\Carbon\Carbon::now()->format('d-m-y'))->where('heure_appointment','15:30')->where('status','En Attente')->exists() ? 'hidden':''}}>
                         </div>
                         <div class="col-md-1">
                             16:00
-                            <input type="checkbox" name="heure_appointment" class="form-control"" value="16:00" {{ \App\Models\Appointment::whereDate('date_appointment',\Carbon\Carbon::now()->format('y-m-d'))->where('heure_appointment','16:00')->where('status','En Attente')->exists() ? 'hidden':''}}>
+                            <input type="checkbox" name="heure_appointment" class="form-control"" value="16:00" {{ \App\Models\Appointment::whereDate('date_appointment',\Carbon\Carbon::now()->format('d-m-y'))->where('heure_appointment','16:00')->where('status','En Attente')->exists() ? 'hidden':''}}>
                         </div>
                         <div class="col-md-1">
                             16:30
-                            <input type="checkbox" name="heure_appointment" class="form-control"" value="16:30" {{ \App\Models\Appointment::whereDate('date_appointment',\Carbon\Carbon::now()->format('y-m-d'))->where('heure_appointment','16:30')->where('status','En Attente')->exists() ? 'hidden':''}}>
+                            <input type="checkbox" name="heure_appointment" class="form-control"" value="16:30" {{ \App\Models\Appointment::whereDate('date_appointment',\Carbon\Carbon::now()->format('d-m-y'))->where('heure_appointment','16:30')->where('status','En Attente')->exists() ? 'hidden':''}}>
                         </div>
                         <div class="col-md-1">
                             17:00
-                            <input type="checkbox" name="heure_appointment" class="form-control"" value="17:00" {{ \App\Models\Appointment::whereDate('date_appointment',\Carbon\Carbon::now()->format('y-m-d'))->where('heure_appointment','17:00')->where('status','En Attente')->exists() ? 'hidden':''}}>
+                            <input type="checkbox" name="heure_appointment" class="form-control"" value="17:00" {{ \App\Models\Appointment::whereDate('date_appointment',\Carbon\Carbon::now()->format('d-m-y'))->where('heure_appointment','17:00')->where('status','En Attente')->exists() ? 'hidden':''}}>
                         </div>
                         <div class="col-md-1">
                             17:30
-                            <input type="checkbox" name="heure_appointment" class="form-control"" value="17:30" {{ \App\Models\Appointment::whereDate('date_appointment',\Carbon\Carbon::now()->format('y-m-d'))->where('heure_appointment','17:30')->where('status','En Attente')->exists() ? 'hidden':''}}>
+                            <input type="checkbox" name="heure_appointment" class="form-control"" value="17:30" {{ \App\Models\Appointment::whereDate('date_appointment',\Carbon\Carbon::now()->format('d-m-y'))->where('heure_appointment','17:30')->where('status','En Attente')->exists() ? 'hidden':''}}>
                         </div>
                         <div class="col-md-1">
                             18:00
-                            <input type="checkbox" name="heure_appointment" class="form-control"" value="18:00" {{ \App\Models\Appointment::whereDate('date_appointment',\Carbon\Carbon::now()->format('y-m-d'))->where('heure_appointment','18:00')->where('status','En Attente')->exists() ? 'hidden':''}}>
+                            <input type="checkbox" name="heure_appointment" class="form-control"" value="18:00" {{ \App\Models\Appointment::whereDate('date_appointment',\Carbon\Carbon::now()->format('d-m-y'))->where('heure_appointment','18:00')->where('status','En Attente')->exists() ? 'hidden':''}}>
                         </div>
                     </div>
                     <br>
