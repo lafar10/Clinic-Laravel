@@ -15,6 +15,7 @@ class Payment extends Model
         'id',
         'nom',
         'prenom',
+        'tele',
         'maladie_type',
         'montant',
         'payment_method',
