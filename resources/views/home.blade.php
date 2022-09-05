@@ -19,6 +19,7 @@
                     {{ __('You are logged in!') }}  <strong>{{auth()->user()->name}}</strong>
                     <form action="{{route('logout')}}" method="post" align="right">
                         @csrf
+                        <a class="btn btn-success" href="{{route('dashboard')}}"><i class="now-ui-icons arrows-1_minimal-right"></i> Dashboard</a>
                         <button class="btn btn-info" type="submit"><i class="now-ui-icons arrows-1_minimal-right"></i> LogOut</button>
                     </form>
                 </div>
