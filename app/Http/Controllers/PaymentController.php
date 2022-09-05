@@ -38,6 +38,7 @@ class PaymentController extends Controller
             'nom' => 'required',
             'prenom' => 'required',
             'maladie_type' => 'required',
+            'tele' => 'null',
             'montant' => 'required',
             'payment_method' => 'required',
             'status' => 'required',
