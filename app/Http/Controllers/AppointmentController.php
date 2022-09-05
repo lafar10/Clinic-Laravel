@@ -58,7 +58,7 @@ class AppointmentController extends Controller
                 'tele' => $request->input('tele'),
                 'type_maladie' => $request->input('type_maladie'),
                 'montant' => $request->input('montant'),
-                'date_appointment' => $request->input('date_appointment')->format('d-m-y'),
+                'date_appointment' => date('d-m-Y', strtotime($request->input('date_appointment'))),
                 'heure_appointment' => $request->input('heure_appointment'),
                 'status' => $request->input('status'),
             ]);
