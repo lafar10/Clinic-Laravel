@@ -38,7 +38,6 @@ class PaymentController extends Controller
             'nom' => 'required',
             'prenom' => 'required',
             'maladie_type' => 'required',
-            'tele' => 'null',
             'montant' => 'required',
             'payment_method' => 'required',
             'status' => 'required',
@@ -51,6 +50,7 @@ class PaymentController extends Controller
         $Payment = Payment::create([
             'nom' => $request->input('nom'),
             'prenom' => $request->input('prenom'),
+            'tele' => $request->input('tele'),
             'maladie_type' => $request->input('maladie_type'),
             'montant' => $request->input('montant'),
             'payment_method' => $request->input('payment_method'),
