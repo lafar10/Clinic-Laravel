@@ -22,7 +22,6 @@ Route::middleware(['auth', 'auth_role'])->group(function () {
 
     /* ---- Dashboard  -----  */
 
-    Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
     Route::get('Dashboard', [DashboardController::class, 'index'])->name('dashboard');
 
     /* ---- Doctors  -----  */
@@ -111,10 +110,10 @@ Route::middleware(['auth', 'super_admin'])->group(function () {
     });
 });
 
+Route::get('/', [DashboardController::class, 'indice'])->name('/');
 
 
 
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/', [App\Http\Controllers\HomeController::class, 'index']);
