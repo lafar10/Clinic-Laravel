@@ -2,6 +2,13 @@
 
 @section('content')
 <div class="container">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <div class="row justify-content-center" >
         <div class="col-md-8" >
             <div class="card" >
@@ -55,7 +62,7 @@
                                 <button type="submit" class="btn btn-danger">
                                     {{ __('Login') }}
                                 </button>
-                                &nbsp;&nbsp;<a href="{{route('register')}}" class="btn btn-info">
+                                &nbsp;&nbsp;<a href="{{route('register')}}" class="btn btn-outline-danger">
                                     {{ __('Register') }}
                                 </a>
                                 @if (Route::has('password.request'))
