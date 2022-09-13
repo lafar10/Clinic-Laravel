@@ -52,7 +52,7 @@
                     <a class="nav-link " href="#cont">Contact Us</a>
                   </li>
                 </ul>
-                <ul>
+                <ul class="navbar-nav">
                     @guest
                         @if (Route::has('login'))
                             <li class="nav-item" >
