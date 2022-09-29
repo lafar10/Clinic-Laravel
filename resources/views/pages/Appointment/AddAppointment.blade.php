@@ -98,12 +98,94 @@
                     <h5 >Select Heure Appointment</h5>
                     <br>
                     <div class="row">
-
+                        
                         <div class="col-md-1">
                             08:00
                             <input type="checkbox" name="heure_appointment" class="form-control"" value="08:00" >
                         </div>
-                        
+                        <div class="col-md-1">
+                            08:30
+                            <input type="checkbox" name="heure_appointment" class="form-control"" value="08:30" >
+                        </div>
+                        <div class="col-md-1">
+                            09:00
+                            <input type="checkbox" name="heure_appointment" class="form-control" value="09:00"  >
+                        </div>
+                        <div class="col-md-1">
+                            09:30
+                            <input type="checkbox" name="heure_appointment" class="form-control"" value="09:30" >
+                        </div>
+                        <div class="col-md-1">
+                            10:00
+                            <input type="checkbox" name="heure_appointment" class="form-control"" value="10:00" >
+                        </div>
+                        <div class="col-md-1">
+                            10:30
+                            <input type="checkbox" name="heure_appointment" class="form-control"" value="10:30" >
+                        </div>
+                        <div class="col-md-1">
+                            11:00
+                            <input type="checkbox" name="heure_appointment" class="form-control"" value="11:00" >
+                        </div>
+                        <div class="col-md-1">
+                            11:30
+                            <input type="checkbox" name="heure_appointment" class="form-control"" value="11:30" >
+                        </div>
+                        <div class="col-md-1">
+                            12:00
+                            <input type="checkbox" name="heure_appointment" class="form-control"" value="12:00" >
+                        </div>
+                        <div class="col-md-1">
+                            12:30
+                            <input type="checkbox" name="heure_appointment" class="form-control"" value="12:30" >
+                        </div>
+                        <div class="col-md-1">
+                            13:00
+                            <input type="checkbox" name="heure_appointment" class="form-control"" value="13:00" >
+                        </div>
+                        <div class="col-md-1">
+                            13:30
+                            <input type="checkbox" name="heure_appointment" class="form-control"" value="13:30" >
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-1">
+                            14:00
+                            <input type="checkbox" name="heure_appointment" class="form-control"" value="14:00" >
+                        </div>
+                        <div class="col-md-1">
+                            14:30
+                            <input type="checkbox" name="heure_appointment" class="form-control"" value="14:30" >
+                        </div>
+                        <div class="col-md-1">
+                            15:00
+                            <input type="checkbox" name="heure_appointment" class="form-control"" value="15:00" >
+                        </div>
+                        <div class="col-md-1">
+                            15:30
+                            <input type="checkbox" name="heure_appointment" class="form-control"" value="15:30" >
+                        </div>
+                        <div class="col-md-1">
+                            16:00
+                            <input type="checkbox" name="heure_appointment" class="form-control"" value="16:00" >
+                        </div>
+                        <div class="col-md-1">
+                            16:30
+                            <input type="checkbox" name="heure_appointment" class="form-control"" value="16:30" >
+                        </div>
+                        <div class="col-md-1">
+                            17:00
+                            <input type="checkbox" name="heure_appointment" class="form-control"" value="17:00" >
+                        </div>
+                        <div class="col-md-1">
+                            17:30
+                            <input type="checkbox" name="heure_appointment" class="form-control"" value="17:30" >
+                        </div>
+                        <div class="col-md-1">
+                            18:00
+                            <input type="checkbox" name="heure_appointment" class="form-control"" value="18:00">
+                        </div>
                     </div>
                     <br>
                     @error('heure_appointment')
