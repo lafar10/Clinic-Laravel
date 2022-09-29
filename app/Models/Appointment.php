@@ -23,4 +23,9 @@ class Appointment extends Model
         'status',
         'created_at'
     ];
+    
+    protected $casts = [
+    'created_at' => 'date', 
+    'date_appointment' => 'date'
+    ];
 }
