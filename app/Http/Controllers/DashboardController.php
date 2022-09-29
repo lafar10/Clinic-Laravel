@@ -8,7 +8,9 @@ class DashboardController extends Controller
 {
     public function index()
     {
-        return view('pages.Dashboard');
+         $appointments = Appointment::where('date_appointment', Carbon::now()->format('d-m-y'))->where('status','En Attente')->get();
+       
+        return view('pages.Dashboard',compact('appointments'));
     }
 
     public function indice()
