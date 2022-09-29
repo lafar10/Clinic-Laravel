@@ -6,9 +6,7 @@
 
         <div class="container " >
             <div class="row shadow-lg" id="fl">
-            <?php  echo "dsfsdffdsf"; ?>
-              
-
+            
                 <div class="col-lg-4 bg-white" >
                     <a href="{{route('payments')}}"id="flx">
                         <h4 class="display-5"><i style="color:rgb(240, 98, 98);" class="now-ui-icons business_money-coins"></i>&nbsp;Payments Total</h4>
