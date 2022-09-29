@@ -49,13 +49,13 @@
             <div class="col-lg-8" align="center">
                 @if ($reports->letter)
                     <textarea align="center" class="form-control" style="border-color:white;height:320px;width:550px;margin-left:70px;">{{$reports->letter}}</textarea><br>
-                @else
+                @endif
                     <p><strong>{{$reports->content}}</strong></p><br>
                     <p><strong>{{$reports->content2}}</strong></p><br>
                     <p><strong>{{$reports->content3}}</strong></p><br>
                     <p><strong>{{$reports->content4}}</strong></p><br>
                     <p><strong>{{$reports->content5}}</strong></p><br>
-                @endif
+               
             </div>
             <br>
             <br>
