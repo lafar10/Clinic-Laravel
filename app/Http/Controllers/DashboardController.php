@@ -10,11 +10,8 @@ use Carbon\Carbon;
 class DashboardController extends Controller
 {
     public function index()
-    {
-         
-         $appointments1 = Payment::where('date_appointment', Carbon::today())->where('status','Payed')->sum('montant')->get();
-       
-         return view('pages.Dashboard',compact('appointments1'));
+    {  
+         return view('pages.Dashboard');
     }
 
     public function indice()
