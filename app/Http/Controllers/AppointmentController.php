@@ -27,6 +27,10 @@ class AppointmentController extends Controller
     }
 
     
+    public function create()
+    {
+        return view('pages.Appointment.AddAppointment');
+    }
 
     public function store(Request $request)
     {
