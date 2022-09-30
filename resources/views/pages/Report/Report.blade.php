@@ -35,7 +35,6 @@
                 </tr>
             </table>
         </div>
-        <br>
         <div class="row" align="center">
             <div >
             <h4 style="margin-left:160px;"><strong>Ouedzem le</strong>  : {{$reports->date_creation}}</h4>
@@ -43,29 +42,24 @@
             <div >
                 <h4 style="margin-right:160px;"><strong>Nom , Prénom</strong>  :   {{$reports->nom}} &nbsp;
                     {{$reports->prenom}}</h4>
-                <br>
-                <br>
+                
             </div>
             <div class="col-lg-8" align="center">
                 @if ($reports->letter)
-                    <textarea align="center" class="form-control" style="border-color:white;height:320px;width:550px;margin-left:70px;">{{$reports->letter}}</textarea><br>
+                    <textarea align="center" class="form-control" style="border-color:white;height:150px;width:550px;margin-left:70px;">{{$reports->letter}}</textarea><br>
                 @endif
                     <p><strong>{{$reports->content}}</strong></p>
                     <p><strong>{{$reports->content2}}</strong></p>
                     <p><strong>{{$reports->content3}}</strong></p>
                     <p><strong>{{$reports->content4}}</strong></p>
-                    <p><strong>{{$reports->content5}}</strong></p>
-              
             </div>
             <br>
             <br>
             <br>
-            <br>
-            <br>
-            <br>
+            
         </div>
         <hr style="width:450px;height:2px;color:purple">
-        <h5 align="center" style="margin-top:30px;color:rgb(90, 90, 90);"><strong style="color:purple;">Adresse</strong> : Oued-Zem , Boulevard Mohammed V N° 196&nbsp;&nbsp;<strong style="color:purple;">Téléphone</strong> : +212625478935<br><br><strong style="color:purple;"> Email</strong> : Ayoub_lafar@hotmail.com</h5>
+        <h5 align="bottom" style="margin-top:30px;color:rgb(90, 90, 90);"><strong style="color:purple;">Adresse</strong> : Oued-Zem , Boulevard Mohammed V N° 196&nbsp;&nbsp;<strong style="color:purple;">Téléphone</strong> : +212625478935<br><br><strong style="color:purple;"> Email</strong> : Ayoub_lafar@hotmail.com</h5>
 
     </div>
 
