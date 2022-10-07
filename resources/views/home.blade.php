@@ -35,19 +35,14 @@
   </div>
   <br>
   <br>
-    @auth
+   @auth
+        
+    @endauth
 
+    @guest
         <div class="alert alert-primary">
             créer un nouveau compte pour accéder au tableau de bord
       </div>
-
-    @endauth
-
-
-    @guest
-
-        
-
     @endguest
   
   <br id="doc">
