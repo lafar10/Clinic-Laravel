@@ -15,20 +15,18 @@
                 <div class="card-header text-center">
                     <i class="now-ui-icons education_atom"></i> {{ __('Login') }}
                     <br>
-                     @auth
+                    <br>
+                      <div class="container">
+                            @auth
 
-                        
+                        @endauth
 
-                    @endauth
-
-
-                    @guest
-
-                        <div class="alert alert-primary">
-                            créer un nouveau compte pour accéder au tableau de bord
-                      </div>
-
-                    @endguest
+                        @guest
+                            <div class="alert alert-primary">
+                                créer un nouveau compte pour accéder au tableau de bord
+                          </div>
+                        @endguest
+                       </div>
                 </div>
 
                 <div class="card-body" >
