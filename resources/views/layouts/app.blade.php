@@ -36,6 +36,12 @@
                         <a class="nav-link" href="{{route('/')}}"><h5 style="font-style:italic">LR10 Clinic</h5>
                     </a>
                     </li>
+                    @if(Auth::user() && Auth::user()->role_as == '2')
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/Dashboard">Dashboard</a>
+                        </li>
+                    @endif
+                    
                     <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="/">Home</a>
                   </li>
