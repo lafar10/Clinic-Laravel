@@ -35,6 +35,9 @@
   </div>
   <br>
   <br>
+  <div class="alert alert-primary">
+        créer un nouveau compte pour accéder au tableau de bord
+  </div>
   <br id="doc">
   <br>
   <br >
