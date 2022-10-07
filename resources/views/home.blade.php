@@ -35,7 +35,9 @@
   </div>
   <br>
   <br>
-   @auth
+   
+   <div class="container">
+        @auth
         
     @endauth
 
@@ -44,6 +46,7 @@
             créer un nouveau compte pour accéder au tableau de bord
       </div>
     @endguest
+   </div>
   
   <br id="doc">
   <br>
