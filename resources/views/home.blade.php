@@ -42,7 +42,7 @@
     @endauth
 
     @guest
-        <div class="alert alert-primary">
+        <div class="alert alert-primary text-center">
             créer un nouveau compte pour accéder au tableau de bord
       </div>
     @endguest
