@@ -35,9 +35,21 @@
   </div>
   <br>
   <br>
-  <div class="alert alert-primary">
-        créer un nouveau compte pour accéder au tableau de bord
-  </div>
+    @auth
+
+        <div class="alert alert-primary">
+            créer un nouveau compte pour accéder au tableau de bord
+      </div>
+
+    @endauth
+
+
+    @guest
+
+        
+
+    @endguest
+  
   <br id="doc">
   <br>
   <br >
