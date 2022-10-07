@@ -17,16 +17,16 @@
                     <br>
                      @auth
 
-                        <div class="alert alert-primary">
-                            créer un nouveau compte pour accéder au tableau de bord
-                      </div>
+                        
 
                     @endauth
 
 
                     @guest
 
-
+                        <div class="alert alert-primary">
+                            créer un nouveau compte pour accéder au tableau de bord
+                      </div>
 
                     @endguest
                 </div>
